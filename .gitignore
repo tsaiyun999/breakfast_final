@@ -1,0 +1,66 @@
+
+
+# 套件安裝目錄
+node_modules/
+
+# pnpm/pnp/yarn 快取
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Bun 
+# bun.lockb    
+
+# 測試覆蓋率報告
+coverage/
+
+# Next.js 輸出
+.next/
+out/
+
+# 編譯產物
+build/
+dist/
+
+# Prisma 產物
+.prisma/
+*.db-journal
+*.sqlite      
+
+# Supabase CLI 模擬資料夾（如有使用）
+.supabase/
+
+# Tailwind / PostCSS 快取
+.cache/
+.postcss-cache/
+
+# TypeScript build 快取
+*.tsbuildinfo
+next-env.d.ts
+
+# 本機 IDE 設定檔
+.vscode/
+.idea/
+*.code-workspace
+
+# macOS / Windows 系統垃圾檔
+.DS_Store
+Thumbs.db
+
+# 憑證檔（避免誤傳）
+*.pem
+
+# 除錯日誌
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# .env        
+# .env.local  
+# .env.*.local
